@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Verification System</title>
+    <link rel="stylesheet" href="captchaVerify.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Register</h2>
+    <input type="text" id="username" placeholder="Enter username (6-12 characters)">
+    
+    <div class="captcha-box" id="captchaText"></div>
+    <button onclick="generateCaptcha()">Refresh Captcha 🔄</button>
+
+    <input type="text" id="captchaInput" placeholder="Enter Captcha">
+    <button onclick="validateForm()">Register</button>
+
+    <p id="message"></p>
+</div>
+
+<script src="captchaVerify.js"></script>
+
+</body>
+</html>
