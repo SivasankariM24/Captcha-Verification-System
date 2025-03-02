@@ -19,9 +19,9 @@ It ensures a **valid username format** and **verifies a case-sensitive Captcha**
 
 ```
 Captcha-Verification-System/
-│── index.html      # Main HTML file (User Interface)
-│── styles.css      # CSS file (Styling)
-│── script.js       # JavaScript file (Functionality)
+│── captchaVerify.html      # Main HTML file (User Interface)
+│── captchaVerify.css      # CSS file (Styling)
+│── captchaVerify.js       # JavaScript file (Functionality)
 │── README.md       # Project Documentation
 ```
 
@@ -41,8 +41,8 @@ Captcha-Verification-System/
    cd Captcha-Verification-System
    ```
 
-3. **Open `index.html` in a Web Browser**  
-   You can double-click on `index.html` or right-click and select **"Open with Browser"**.
+3. **Open `captchaVerify.html` in a Web Browser**  
+   You can double-click on `captchaVerify.html` or right-click and select **"Open with Browser"**.
 
 ---
 
